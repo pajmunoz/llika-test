@@ -1,0 +1,13 @@
+{
+  "name": "llika",
+  "version": "1.0.0",
+  "description": "test-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "run",
+    "sass": "node-sass -w sass/ -o css/"
+
+  },
+  "author": "pablo",
+  "license": "UNLICENSED"
+}

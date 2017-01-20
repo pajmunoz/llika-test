@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'falkin';
+  src: url('FalkinSansPERSONAL/FalkinSansPERSONAL.woff') format('woff');
+  src: url('FalkinSansPERSONAL/FalkinSansPERSONAL.eot') format('embedded-opentype');
+  src: url('FalkinSansPERSONAL/FalkinSansPERSONAL.svg') format('svg');
+  src: url('FalkinSansPERSONAL/FalkinSansPERSONAL.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'GoodScWebPro-Bold';
+  src: url('GoodScWebPro-Bold/GoodScWebPro-Bold.woff') format('woff');
+  src: url('GoodScWebPro-Bold/GoodScWebPro-Bold.eot') format('embedded-opentype');
+  src: url('GoodScWebPro-Bold/GoodScWebPro-Bold.svg') format('svg');
+  src: url('GoodScWebPro-Bold/GoodScWebPro-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'GoodWebPro-Bold';
+  src: url('GoodWebPro-Bold/GoodWebPro-Bold.woff') format('woff');
+  src: url('GoodWebPro-Bold/GoodWebPro-Bold.eot') format('embedded-opentype');
+  src: url('GoodWebPro-Bold/GoodWebPro-Bold.svg') format('svg');
+  src: url('GoodWebPro-Bold/GoodWebPro-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'GoodWebPro-BoldItalic';
+  src: url('GoodWebPro-BoldItalic/GoodWebPro-BoldItalic.woff') format('woff');
+  src: url('GoodWebPro-BoldItalic/GoodWebPro-BoldItalic.eot') format('embedded-opentype');
+  src: url('GoodWebPro-BoldItalic/GoodWebPro-BoldItalic.svg') format('svg');
+  src: url('GoodWebPro-BoldItalic/GoodWebPro-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'GoodWebPro-Book';
+  src: url('GoodWebPro-Book/GoodWebPro-Book.woff') format('woff');
+  src: url('GoodWebPro-Book/GoodWebPro-Book.eot') format('embedded-opentype');
+  src: url('GoodWebPro-Book/GoodWebPro-Book.svg') format('svg');
+  src: url('GoodWebPro-Book/GoodWebPro-Book.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'MoreWebPro-BookItalic';
+  src: url('MoreWebPro-BookItalic/MoreWebPro-BookItalic.woff') format('woff');
+  src: url('MoreWebPro-BookItalic/MoreWebPro-BookItalic.eot') format('embedded-opentype');
+  src: url('MoreWebPro-BookItalic/MoreWebPro-BookItalic.svg') format('svg');
+  src: url('MoreWebPro-BookItalic/MoreWebPro-BookItalic.ttf') format('truetype');
+}
+h1, h2{
+	font-family:"GoodWebPro-BoldItalic";
+}
+h3{
+	font-family:"falkin";
+}
+body{
+	font-family: MoreWebPro-BookItalic;
+}
+.bg1{
+	background:red;
+}
+.bg2{
+	background: grey;
+}
+.bg3{
+	background: blue;
+}
