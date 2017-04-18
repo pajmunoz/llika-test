@@ -1,6 +1,6 @@
 ## Para correr el sitio 
 
-Instalar: node.js - git
+Instalar: node.js - git (ya en el repo)
 
 ## Correr compilador de Sass
 
