@@ -1,3 +1,1 @@
-// $( document ).ready(function() {
-//     alert( "ready!" );
-// });
+var app = angular.module("llikaApp",[]);

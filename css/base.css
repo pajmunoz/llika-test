@@ -5874,5 +5874,5 @@ body {
 .bg3 {
   background: blue; }
 
-body {
-  margin: 15em; }
+body section {
+  height: 100vh; }

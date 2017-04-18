@@ -1,14 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>Llika</title>
 	<link rel="stylesheet" href="css/base.css">
+	<script src="/node_modules/angular/angular.js"></script>
+	<script src="js/script.js"></script>
+
+
 </head>
-<body>
-<div class><p>hellff</p></div> 
-	
-<script src="js/script.js"></script>	 	
+
+<body ng-app="llikaApp">
+	<nav class="navbar-fixed-top">
+		<section id="nav" class="container-fluid">
+			<ul class="nav nav-tabs nav-justified">
+				<li role="presentation" class="active"><a href="#home">Home</a></li>
+				<li role="presentation"><a href="#profile">Profile</a></li>
+				<li role="presentation"><a href="#messages">Messages</a></li>
+			</ul>
+		</section>
+	</nav>
+	<section id="home" class="container">
+		<div class="row">
+			<div class="bg1 col-md-6 col-xs-12"></div>
+			<div class="bg2 col-md-6 col-xs-12"></div>
+		</div>
+		<div class="row">
+			
+		</div>
+	</section>
+	<section id="profile"></section>
+	<section id="messages"></section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
