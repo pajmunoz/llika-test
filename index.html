@@ -7,22 +7,22 @@
 	<title>Llika</title>
 	<link rel="stylesheet" href="css/base.css">
 	<script src="/node_modules/angular/angular.js"></script>
-	<script src="js/script.js"></script>
+	<script src="js/app.js"></script>
 
 
 </head>
 
 <body ng-app="llikaApp">
 	<nav class="navbar-fixed-top">
-		<section id="nav" class="container-fluid">
+		<div id="nav" class="container-fluid" ng-init="menu = 1">
 			<ul class="nav nav-tabs nav-justified">
-				<li role="presentation" class="active"><a href="#home">Home</a></li>
-				<li role="presentation"><a href="#profile">Profile</a></li>
-				<li role="presentation"><a href="#messages">Messages</a></li>
+				<li ng-class="{active:menu === 1}" role="presentation"><a href="" ng-click="menu = 1">Home</a></li>
+				<li ng-class="{active:menu === 2}" role="presentation"><a href="" ng-click="menu = 2">Profile</a></li>
+				<li ng-class="{active:menu === 3}" role="presentation"><a href="" ng-click="menu = 3">Messages</a></li>
 			</ul>
-		</section>
+		</div>
 	</nav>
-	<section id="home" class="container">
+	<section id="home" class="container" ng-hide="true" ng-show="menu === 1">
 		<div class="row">
 			<div class="bg1 col-md-6 col-xs-12"></div>
 			<div class="bg2 col-md-6 col-xs-12"></div>
@@ -31,8 +31,29 @@
 
 		</div>
 	</section>
-	<section id="profile"></section>
-	<section id="messages"></section>
+	<section id="profile" class="container" ng-init="tab = 1" ng-hide="true" ng-show="menu === 2">
+		<ul class="nav nav-pills">
+			<li ng-class="{active:tab === 1}"><a href="" ng-click="tab = 1">Description</a></li>
+			<li ng-class="{active:tab === 2}"><a href="" ng-click="tab = 2">Specifications</a></li>
+			<li ng-class="{active:tab === 3}"><a href="" ng-click="tab = 3">Reviews</a></li>
+		</ul>
+	
+		<div class="panel" ng-show="tab === 1">
+			<h4>Description</h4>
+			<p>{{product.description}}</p>
+		</div>
+		<div class="panel" ng-show="tab === 2">
+			<h4>Specifications</h4>
+			<blockquote>None yet</blockquote>
+		</div>
+		<div class="panel" ng-show="tab === 3">
+			<h4>Reviews</h4>
+			<blockquote>None yet</blockquote>
+		</div>
+	</section>
+	<section id="messages" ng-hide="true" ng-show="menu === 3">
+
+	</section>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
